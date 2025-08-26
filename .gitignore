@@ -1,0 +1,49 @@
+# .gitignore para projeto .NET (C#) com Docker e arquivos auxiliares
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker
+**/docker-compose.override.yml
+**/.env
+
+# Test results
+TestResults/
+
+# Backup files
+*~
+*.bak
+
+# Outros
+.env*
+
+# Documentação e imagens geradas
+/docs/img/
+
+# Arquivos de configuração sensíveis
+secrets.json
+
+# Ignore arquivos de configuração locais
+appsettings.*.local.json
