@@ -40,7 +40,6 @@ TestResults/
 .env*
 
 # Documentação e imagens geradas
-/docs/img/
 
 # Arquivos de configuração sensíveis
 secrets.json
